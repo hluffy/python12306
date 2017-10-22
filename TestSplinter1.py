@@ -14,7 +14,7 @@ starts = "%u4E0A%u6D77%2CSHH"
 ends = "%u897F%u5B89%2CXAY"
 dtime = u"2017-10-23"
 order = 0
-pa = u""
+pa = u"" ##姓名
 
 def login():
     b.find_by_text(u"登录").click()
