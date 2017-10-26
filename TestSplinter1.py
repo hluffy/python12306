@@ -8,13 +8,13 @@ ticket_url = "https://kyfw.12306.cn/otn/leftTicket/init"
 login_url = "https://kyfw.12306.cn/otn/login/init"
 initmy_url = "https://kyfw.12306.cn/otn/index/initMy12306"
 
-username = u""
-password = u""
+username = u"18801613171@163.com"
+password = u"ilovenkn19911010"
 starts = "%u4E0A%u6D77%2CSHH"
 ends = "%u897F%u5B89%2CXAY"
 dtime = u"2017-10-23"
 order = 0
-pa = u"" ##姓名
+pa = u"韩晓" ##姓名
 
 def login():
     b.find_by_text(u"登录").click()
@@ -85,5 +85,5 @@ def huoche():
     except Exception as e:
         print(traceback.print_exc())
 
-if __name__ == "__main__":
-    huoche()
+# if __name__ == "__main__":
+#     huoche()
