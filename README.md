@@ -1,7 +1,7 @@
 # python12306
 [参考资料](http://blog.csdn.net/starzhou/article/details/50276571)
 
-####发送邮箱
+#### 发送邮箱
 引入`smtp`库:
 	
 	import smtplib
