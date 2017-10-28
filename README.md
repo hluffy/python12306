@@ -11,3 +11,10 @@
 引入`smtp`库:
 	
 	import smtplib
+
+---
+***
+
+
+# README.md文件的使用
+[参考资料](http://blog.csdn.net/zhaokaiqiang1992/article/details/41349819) 
